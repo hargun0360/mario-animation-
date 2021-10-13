@@ -29,9 +29,23 @@ body{
 
 #mario{
 
-    margin-top: 345px;
+    margin-top: 340px;
     position: absolute;
+    
 
+}
+
+.animat{animation: jump 0.5s linear;}
+@keyframes jump{
+    0%{
+
+        margin-top: 100px;
+}
+30%{margin-top:200px}
+/* 70%{
+    margin-top:300px} */
+
+100%{margin-top:340px}
 }
 
 #obstacle{
@@ -46,3 +60,7 @@ body{
 
     margin-left: 0px;
 }
+
+
+
+
